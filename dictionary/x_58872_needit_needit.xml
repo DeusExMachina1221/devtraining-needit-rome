@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="0" type="collection"/>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="0" type="collection">
+        <element label="CITTA" max_length="40" name="citta" type="string"/>
+        <element display="true" label="COGNOME" max_length="40" name="cognome" type="string"/>
+        <element label="NOME" max_length="40" name="nome" type="string"/>
+        <element label="NUMERO" max_length="40" name="numero" type="integer"/>
+        <element label="Requested for" max_length="40" name="requested_for" type="string"/>
+        <element label="Requested type" max_length="40" name="requested_type" type="string"/>
+        <element label="_what_needed" max_length="40" name="what_needed" type="string"/>
+    </element>
 </database>
